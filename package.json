@@ -5,12 +5,10 @@
   "private": true,
   "license": "MIT",
   "author": "Pat von Student",
-  "type": "module",
   "scripts": {
-    "test": "npx qunit"
-  },
+    "lint:html": "htmlhint"
+    },
   "devDependencies": {
-    "qunit": "^2.23.1",
-    "sinon": "^19.0.2"
+    "qunit": "^2.21.1"
   }
 }
